@@ -1,0 +1,90 @@
+/* style.css */
+
+body {
+  background-color: #1b2838;
+  color: #c7d5e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #171a21;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #c7d5e0 !important;
+}
+
+.hero {
+  background: url('./assets/hero.png') no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #66c0f4;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: #1b2838;
+}
+
+.carousel-inner .carousel-item {
+  background-color: #2a475e;
+  color: #c7d5e0;
+}
+
+.heading {
+  color: #66c0f4;
+}
+
+.carousel-img {
+  width: 100%;
+  max-height: 60vh;
+  height: auto;
+  object-fit: contain;
+}
+
+.card {
+  background-color: #2a475e;
+  border: none;
+  color: #c7d5e0;
+  min-height: 300px;
+}
+
+.footer {
+  background-color: #171a21;
+  color: #c7d5e0;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.modal-content.steam-bg {
+  background-color: #2a475e;
+  border-radius: 10px;
+  color: #c7d5e0;
+}
+
+.text-steam {
+  color: #c7d5e0;
+}
+
+.btn-primary {
+  background-color: #66c0f4;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #417a9b;
+}
